@@ -5,6 +5,9 @@ purpose of the file is to pass control to the app’s first module.
 */
 
 import { svelteNative } from "svelte-native";
+import { registerNativeViewElement } from 'svelte-native/dom'
 import App from  "./App.svelte";
-svelteNative(App, {});
 
+registerNativeViewElement("mapBox", () => require("nativescript-mapbox").MapboxView);
+
+svelteNative(App, {});
