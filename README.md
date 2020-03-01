@@ -1,6 +1,6 @@
-# svelte-native-mapbox
+# svelte-native-test
 
-Test of svelte-native template with mapbox integration
+Test of svelte-native template with some integrations.
 
 ## Usage
 
